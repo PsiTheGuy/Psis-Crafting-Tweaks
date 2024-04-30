@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.psitheguy.craftingtweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CraftingTweaksMixin"
+
+ ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

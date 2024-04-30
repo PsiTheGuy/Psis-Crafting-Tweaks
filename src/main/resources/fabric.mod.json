@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "psis-crafting-tweaks",
+	"version": "${version}",
+	"name": "PsiTheGuy's Crafting Tweaks",
+	"description": "A lightweight Fabric mod that adds and modifies recipes in Minecraft",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/psis-crafting-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.psitheguy.craftingtweaks.CraftingTweaks"
+		],
+
+		"client": [
+			"net.psitheguy.craftingtweaks.CraftingTweaksClient"
+		],
+		"fabric-datagen": [
+			"net.psitheguy.craftingtweaks.CraftingTweaksDataGenerator"
+		]
+	},
+	"mixins": [
+		"psis-crafting-tweaks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
