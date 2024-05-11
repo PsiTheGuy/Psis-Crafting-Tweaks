@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "O": {
-      "item": "minecraft:obsidian"
-    },
     "G": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:gold_block"
+    },
+    "A": {
+      "item": "minecraft:apple"
     }
   },
   "pattern": [
-    "OOO",
-    "OGO",
-    "OOO"
+    "GGG",
+    "GAG",
+    "GGG"
   ],
   "result": {
     "count": 8,
